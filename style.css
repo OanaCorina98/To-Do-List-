@@ -1,0 +1,78 @@
+html,body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Alkatra;
+    background-color: #f1f1f1;
+}
+
+.container {
+   max-width: 400px;
+   margin: 0 auto;
+   background-color: #ffffff;
+   border: 1px solid #dddddd;
+   border-radius: 10px;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+h2{
+    text-align: center;
+}
+
+#inputfield  {
+    /* width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    /* font-size: 25px; */
+    vertical-align: middle; 
+    padding: 8px;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 50px;
+ 
+}
+
+#btn{
+    background-color: #dddddd;
+    padding: 8px 10px 8px 10px;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  /* margin-right: 10px; */
+  cursor: pointer;
+  
+}
+
+#btn:hover {
+background-color:#f1f1f1;
+}
+
+
+.to-dos {
+    margin-top: 25px;
+    position: relative;
+    align-items: center;
+    flex-direction: column; /* Așezarea verticală a elementelor în container */
+    align-items: flex-start; 
+ 
+  
+   
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+   
+  }
+
+.paragraph-styling  {
+    margin: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+}
+
